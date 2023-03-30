@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --violet-800: #bb3073;
+  --blue-300: #00c3c9;
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.distancer-header {
+  margin-top: 10rem;
+}
+
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.line::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  border-bottom: 1px solid var(--blue-300);
+}
+
+.clevesson-men {
+  background-color: rgb(27, 27, 27);
+  height: 2rem;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

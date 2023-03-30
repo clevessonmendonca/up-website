@@ -1,0 +1,146 @@
+.about .summury {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .summury .primary-button {
+  margin-top: 3rem;
+  display: inline-block;
+  background: transparent;
+  color: var(--blue-300);
+}
+
+.about .summury h1 {
+  font-size: 3rem;
+}
+
+.about .summury img {
+  max-width: 500px;
+}
+
+.about-visions {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 5rem 0 8rem;
+  background: linear-gradient(270deg, #ffffff, rgba(241, 241, 241, 0.473));
+}
+
+.about-visions .about-visions-container {
+  overflow: hidden;
+  flex-direction: column;
+  position: relative;
+}
+
+.about-visions .about-visions-container h2 {
+  position: absolute;
+  margin: unset;
+  max-width: 453px;
+  font-size: 2.5rem;
+}
+
+.about-visions .visions-layout {
+  grid-gap: 32px;
+  gap: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-visions .visions-layout ul {
+  position: relative;
+}
+
+.about-visions .visions-layout ul:nth-child(1) {
+  margin-top: 15rem;
+}
+
+.about-visions .visions-layout ul div {
+  max-width: 430px;
+}
+
+.about-visions .visions-layout ul li .principies {
+  max-width: 90px;
+}
+
+.about-visions .visions-layout ul span {
+  position: absolute;
+  top: 65px;
+  left: 29px;
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0;
+  height: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: -10;
+}
+
+.about-visions .visions-layout ul:nth-child(2) span {
+  left: -80px !important;
+}
+
+.about-visions .visions-layout ul:nth-child(2) li:nth-child(2) span {
+  left: -69px !important;
+  top: 610px;
+}
+
+.about-visions .visions-layout ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5rem;
+}
+
+.about-visions .visions-layout ul h3 {
+  font-size: 1.8rem;
+}
+
+.about-visions .visions-layout ul h4 {
+  margin: 0rem 0 1.5rem;
+  color: #202020ee;
+}
+
+.services-trust {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+
+  background-color: #f2f2f2;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.services-trust h2 {
+  max-width: 500px;
+}
+
+.services-trust .companies {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+}
+
+.services-trust .companies img {
+  width: 15rem;
+  filter: grayscale(1);
+  max-height: 200px;
+  height: 100%;
+
+  transition: filter 0.4s;
+}
+
+.services-trust img:hover {
+  filter: grayscale(0);
+}

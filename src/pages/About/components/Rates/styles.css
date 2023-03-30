@@ -1,0 +1,19 @@
+.rates {
+    background-color: rgb(251, 255, 255);
+    margin: 3rem auto 5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.rates .card {
+    padding-bottom: 5rem;
+}
+
+.rates .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.rates .card .card-text {
+}
