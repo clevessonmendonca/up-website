@@ -14,12 +14,16 @@ export const Footer = () => {
               <a href="https://www.instagram.com/up.cvbsb/" target="_blank">
                 <InstagramLogo />
               </a>
-              <a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
+              >
                 <WhatsappLogo />
               </a>
-              <a href="/">
+              <Link to="/">
                 <Globe />
-              </a>
+              </Link>
             </div>
             <p>Up Comuicação Visual 2023</p>
             <p>Todos os direitos reservados.</p>

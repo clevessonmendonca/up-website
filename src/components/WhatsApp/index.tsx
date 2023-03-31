@@ -7,7 +7,7 @@ export const WhatsApp = () => {
     <a
       target="_blank"
       rel="noopener noreferrer"
-      href="https://api.whatsapp.com/send?1=pt_br&phone=5561985783047&utm_source=site&utm_medium=organic&utm_campaign=contato&utm_term=botaowhatsapp&utm_content=paginicial-home"
+      href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
       className="whatsapp-button"
     >
       <img src={WhatsAppLogo} alt="whatsapp logo" />

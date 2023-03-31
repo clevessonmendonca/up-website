@@ -22,35 +22,58 @@ export const Contact = () => {
           {ProductsDb.map((product) => {
             if (id && product.id == id) {
               return (
-                <Link to="" className="card selected">
+                <a className="card selected">
                   <WhatsappLogo /> Solicitar orçamento de {product.title}.
-                </Link>
+                </a>
               );
             }
           })}
-          <Link to="" className="card">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+fazer+uma+impress%C3%A3o+UV%21"
+            className="card"
+          >
             <WhatsappLogo /> Quero personalizar um produto com Impressão UV.
-          </Link>
-          <Link to="" className="card">
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
+            className="card"
+          >
             <WhatsappLogo /> Solicitar orçamento de um serviço.
-          </Link>
-          <Link to="" className="card">
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
+            className="card"
+          >
             <WhatsappLogo /> Falar com Atedente.
-          </Link>
-          <Link to="" className="card">
+          </a>
+          <a
+            href="https://www.instagram.com/up.cvbsb/"
+            target="_blank"
+            className="card"
+          >
             <InstagramLogo /> Conheça nosso Instagram.
-          </Link>
+          </a>
         </section>
       </main>
       <footer className="contact container">
         <nav>
-          <a href="/">
+          <Link to="/">
             <Globe />
-          </a>
-          <a href="">
+          </Link>
+          <a href="https://www.instagram.com/up.cvbsb/" target="_blank">
             <InstagramLogo />
           </a>
-          <a href="">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
+          >
             <WhatsappLogo />
           </a>
         </nav>
