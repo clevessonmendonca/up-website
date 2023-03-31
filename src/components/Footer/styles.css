@@ -11,7 +11,7 @@ footer {
   gap: 2rem;
   color: white;
 
-  padding: 5rem 1rem;
+  padding: 4rem 1rem;
 }
 
 footer .content nav {
@@ -26,7 +26,7 @@ footer p {
 }
 
 footer img {
-  max-width: 150px;
+  max-width: 130px;
 }
 
 footer .hour {
@@ -68,4 +68,11 @@ footer .social-medias a:hover {
 footer .social-medias svg {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+
+@media (max-width: 767px) {
+  footer .content nav {
+    flex-direction: column;
+  }    
 }

@@ -22,13 +22,13 @@ export const Footer = () => {
               </a>
             </div>
             <p>Up Comuicação Visual 2023</p>
-            <p>Todos os direitos reservador</p>
+            <p>Todos os direitos reservados.</p>
           </div>
           <nav>
             <Link to="/">Home</Link>
             <Link to="/about">Quem somos</Link>
             <Link to="/services">Serviços</Link>
-            <Link to="#">Contato</Link>
+            <Link to="/">Contato</Link>
           </nav>
         </div>
         <div className="hour">
