@@ -25,7 +25,7 @@ export const Contact = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+fazer+uma+impress%C3%A3o+UV%21"
+                  href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
                   className="card selected"
                 >
                   <WhatsappLogo /> Solicitar orçamento de {product.title}.
