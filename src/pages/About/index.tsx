@@ -19,13 +19,13 @@ export const About = () => {
               Somos uma empresa com foco em Comunicação Visual e Serviços
               Gráficos, venha colocar sua ideia no papel
             </p>
-            <Button icon={<ArrowDown />} name="Saiba mais" url="#about" />
+            <a href="#about" className="more"><ArrowDown /> Saiba mais</a>
           </div>
           <img src="/about.png" alt="" />
         </div>
       </section>
 
-      <section className="about-visions">
+      <section className="about-visions" id="about">
         <div className="about-visions-container container">
           <h2>Como nossos Princípios podem te ajudar</h2>
           <div className="visions-layout">

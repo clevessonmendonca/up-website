@@ -15,6 +15,18 @@
   font-size: 3rem;
 }
 
+.about .summury p {
+  max-width: 600px;
+}
+
+.about .summury .more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 3rem 2rem;
+  color: var(--blue-300);
+}
+
 .about .summury img {
   max-width: 500px;
 }
@@ -24,7 +36,7 @@
   justify-content: center;
   position: relative;
   padding: 5rem 0 8rem;
-  background: linear-gradient(270deg, #ffffff, rgba(241, 241, 241, 0.473));
+  background: linear-gradient(270deg, #ffffff, rgba(227, 227, 227, 0.47));
 }
 
 .about-visions .about-visions-container {
@@ -157,6 +169,12 @@
   .about .summury {
     margin-top: 5rem;
     flex-direction: column;
+  }
+
+  .about .summury .more {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .about .summury img {
