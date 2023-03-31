@@ -17,6 +17,7 @@ footer {
 footer .content nav {
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: end;
   gap: 2rem;
 }
@@ -75,6 +76,5 @@ footer .social-medias svg {
   footer .content nav {
     flex-direction: column;
     justify-content: center;
-    text-align: center;
   }    
 }

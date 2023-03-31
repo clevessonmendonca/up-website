@@ -15,5 +15,6 @@
     border-radius: 100%;
 }
 
-.rates .card .card-text {
-}
+.rates .card:hover {
+    box-shadow: none;
+  }

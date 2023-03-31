@@ -3,6 +3,7 @@ import { Default } from "./layouts/Default";
 import { About } from "./pages/About";
 import { Products } from "./pages/Products";
 import { Home } from "./pages/Home";
+import { Contact } from "./pages/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -22,5 +23,9 @@ export const router = createBrowserRouter([
         element: <Products />,
       },
     ],
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
