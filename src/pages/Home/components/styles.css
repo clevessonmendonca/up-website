@@ -1,3 +1,7 @@
-.carousel {
+.carousel, .carousel a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    
     cursor: pointer;
 }

@@ -10,7 +10,7 @@ interface ButtonProps {
 
 export const Button = ({ name, url, icon }: ButtonProps) => {
   return (
-    <Link to={url} className="primary-button">
+    <Link to={url || "/contact"} className="primary-button">
       {icon} {name}
     </Link>
   );

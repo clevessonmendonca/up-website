@@ -13,7 +13,7 @@ export const Product = () => {
             <h3 className="card-title">{product.title}</h3>
             <img src={product.image} alt="" />
             <p className="card-text">{product.description}</p>
-            <Button name="Saiba mais" url="/services/:service" />
+            <Button name="Saiba mais" url={`/contact/${product.id}`} />
           </div>
         ))}
       </div>

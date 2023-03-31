@@ -40,7 +40,7 @@ header .container nav a.active {
     width: 60px;
   }
   
-  header .container a {
-    display: none;
+  header .containe nav > a {
+    padding: 1rem 0.5rem;
   }
 }

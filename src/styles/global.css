@@ -33,6 +33,7 @@ ul {
 }
 
 a {
+  color: black;
   text-decoration: none;
 }
 
@@ -67,4 +68,29 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.back-to-website {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  width: 50px;
+  height: 50px;
+  border-radius: 9999px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .4s;
+}
+
+.back-to-website:hover {
+  filter: brightness(0.8);
+}
+
+.back-to-website svg {
+  width: 15px;
+  height: 15px;
 }

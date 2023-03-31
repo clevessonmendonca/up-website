@@ -1,5 +1,6 @@
 import { Carousel } from "react-responsive-carousel";
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 export const CarouselComponent = () => {
   return (
@@ -11,15 +12,15 @@ export const CarouselComponent = () => {
       showStatus={false}
       showThumbs={false}
     >
-      <div>
+      <Link to={`contact/1`}>
         <img src="/banners/sticker-carousel.png" alt="" />
-      </div>
-      <div>
+      </Link>
+      <Link to={`contact/4`}>
         <img src="/banners/card-visit-carousel.png" alt="" />
-      </div>
-      <div>
+      </Link>
+      <Link to={`contact/3`}>
         <img src="/banners/impression-UV-carousel.png" alt="" />
-      </div>
+      </Link>
     </Carousel>
   );
 };
