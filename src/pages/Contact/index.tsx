@@ -22,7 +22,12 @@ export const Contact = () => {
           {ProductsDb.map((product) => {
             if (id && product.id == id) {
               return (
-                <a className="card selected">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+fazer+uma+impress%C3%A3o+UV%21"
+                  className="card selected"
+                >
                   <WhatsappLogo /> Solicitar orçamento de {product.title}.
                 </a>
               );
