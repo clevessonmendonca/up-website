@@ -1,5 +1,9 @@
 import "./styles.css";
 
+import ArrowCenterImg from "../../assets/arrow-center.png"
+import ArrowTopImg from "../../assets/arrow-top.png"
+import ArrowBottomImg from "../../assets/arrow-bottom.png"
+
 import { Rates } from "./components/Rates";
 import { Button } from "../../components/Button";
 import { ArrowDown } from "phosphor-react";
@@ -28,11 +32,11 @@ export const About = () => {
             <ul>
               <li>
                 <span>
-                  <img src="./src/assets/arrow-center.png" alt="" />
+                  <img src={ArrowCenterImg} alt="" />
                 </span>
                 <img
                   className="principies"
-                  src="./src/assets/mission.png"
+                  src="/mission.png"
                   alt=""
                 />
                 <div>
@@ -53,11 +57,11 @@ export const About = () => {
             <ul>
               <li>
                 <span>
-                  <img src="./src/assets/arrow-top.png" alt="" />
+                  <img src={ArrowTopImg} alt="" />
                 </span>
                 <img
                   className="principies"
-                  src="./src/assets/vision.png"
+                  src="/vision.png"
                   alt=""
                 />
                 <div>
@@ -74,11 +78,11 @@ export const About = () => {
               </li>
               <li>
                 <span>
-                  <img src="./src/assets/arrow-bottom.png" alt="" />
+                  <img src={ArrowBottomImg} alt="" />
                 </span>
                 <img
                   className="principies"
-                  src="./src/assets/values.png"
+                  src="/values.png"
                   alt=""
                 />
                 <div>
