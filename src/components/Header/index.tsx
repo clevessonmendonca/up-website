@@ -2,12 +2,11 @@ import { Button } from "../Button";
 import "./styles.css";
 
 import LogoImg from "../../assets/logo.svg";
-import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <header id="header">
+    <header>
       <div className="container">
         <img src={LogoImg} alt="Logo by Up Comunição Visual" />
         <nav>
