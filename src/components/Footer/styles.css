@@ -74,5 +74,7 @@ footer .social-medias svg {
 @media (max-width: 767px) {
   footer .content nav {
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }    
 }

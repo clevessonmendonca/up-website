@@ -34,3 +34,13 @@ header .container nav a:hover {
 header .container nav a.active {
   border-bottom: 3px solid var(--violet-800);
 }
+
+@media (max-width: 535px) {
+  header .container img {
+    width: 60px;
+  }
+  
+  header .container a {
+    display: none;
+  }
+}
