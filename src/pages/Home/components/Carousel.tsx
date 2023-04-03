@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 export const CarouselComponent = () => {
   return (
     <Carousel
+    dynamicHeight={false}
+      autoFocus
       autoPlay
       interval={5000}
       transitionTime={500}
