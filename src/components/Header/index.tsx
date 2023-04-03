@@ -15,13 +15,23 @@ export const Header = () => {
   }
 
   useEffect(() => {
-    const navElement = document.querySelector("nav");
-    const overlayElement = document.querySelector(".overlay");
-    const headerElement = document.querySelector("header");
+    if (!isActive) {
+      const navElement = document.querySelector("nav");
+      const overlayElement = document.querySelector(".overlay");
+      const headerElement = document.querySelector("header");
 
-    navElement?.classList.toggle("active-navbar");
-    overlayElement?.classList.toggle("active-navbar");
-    headerElement?.classList.toggle("active-navbar");
+      navElement?.classList.add("active-navbar");
+      overlayElement?.classList.add("active-navbar");
+      headerElement?.classList.add("active-navbar");
+    } else {
+      const navElement = document.querySelector("nav");
+      const overlayElement = document.querySelector(".overlay");
+      const headerElement = document.querySelector("header");
+
+      navElement?.classList.remove("active-navbar");
+      overlayElement?.classList.remove("active-navbar");
+      headerElement?.classList.remove("active-navbar");
+    }
   }, [isActive]);
 
   return (
@@ -33,12 +43,18 @@ export const Header = () => {
             <NavLink to="/">Home</NavLink>
             <NavLink to="/about">Sobre</NavLink>
             <NavLink to="/services">Serviços</NavLink>
-            {isActive ? <NavLink className="link-mobile" to="/contact">Contato</NavLink> : ""}
+            {isActive ? (
+              <NavLink className="link-mobile" to="/contact">
+                Contato
+              </NavLink>
+            ) : (
+              ""
+            )}
           </ul>
         </nav>
         <Button name="Contato" url="/contact" />
         <div className="mobile-nav" onClick={() => handleNavbar()}>
-         { isActive ? <X /> : <Equals />}
+          {isActive ? <X /> : <Equals />}
         </div>
       </div>
       <div className="overlay" onClick={() => handleNavbar()} />
