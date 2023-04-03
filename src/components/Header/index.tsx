@@ -20,17 +20,17 @@ export const Header = () => {
       const overlayElement = document.querySelector(".overlay");
       const headerElement = document.querySelector("header");
 
-      navElement?.classList.add("active-navbar");
-      overlayElement?.classList.add("active-navbar");
-      headerElement?.classList.add("active-navbar");
+      navElement?.classList.remove("active-navbar");
+      overlayElement?.classList.remove("active-navbar");
+      headerElement?.classList.remove("active-navbar");
     } else {
       const navElement = document.querySelector("nav");
       const overlayElement = document.querySelector(".overlay");
       const headerElement = document.querySelector("header");
 
-      navElement?.classList.remove("active-navbar");
-      overlayElement?.classList.remove("active-navbar");
-      headerElement?.classList.remove("active-navbar");
+      navElement?.classList.add("active-navbar");
+      overlayElement?.classList.add("active-navbar");
+      headerElement?.classList.add("active-navbar");
     }
   }, [isActive]);
 
