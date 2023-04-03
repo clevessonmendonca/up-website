@@ -33,7 +33,7 @@ export const Header = () => {
             <NavLink to="/">Home</NavLink>
             <NavLink to="/about">Sobre</NavLink>
             <NavLink to="/services">Serviços</NavLink>
-            {isActive ? <NavLink to="/contact">Contato</NavLink> : ""}
+            {isActive ? <NavLink className="link-mobile" to="/contact">Contato</NavLink> : ""}
           </ul>
         </nav>
         <Button name="Contato" url="/contact" />

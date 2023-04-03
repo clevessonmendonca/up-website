@@ -17,7 +17,8 @@ header .container {
   z-index: 99;
 }
 
-header .container nav, header .container .navbar  {
+header .container nav,
+header .container .navbar {
   display: flex;
   gap: 2rem;
 }
@@ -30,7 +31,8 @@ header .container nav a {
   color: black;
 }
 
-header .mobile-nav {
+header .mobile-nav,
+header .active-navbar .link-mobile {
   display: none;
 }
 
@@ -47,7 +49,8 @@ header .container nav a.active {
     width: 60px;
   }
 
-  header .container nav, header .primary-button {
+  header .container nav,
+  header .primary-button {
     display: none;
     height: 0;
   }
@@ -103,5 +106,13 @@ header .container nav a.active {
   header .mobile-nav {
     display: block;
     z-index: 999;
+  }
+
+  header .active-navbar .link-mobile {
+    display: block;
+  }
+
+  header .container nav a.active {
+    color: var(--violet-800);
   }
 }
