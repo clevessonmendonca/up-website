@@ -104,9 +104,19 @@ header .container nav a.active {
     border-radius: 1rem;
   }
 
-  header .mobile-nav {
+  header .mobile-nav,
+  header .mobile-nav svg {
     display: block;
     z-index: 999;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+    transition: all .2s;
+  }
+
+  header .mobile-nav svg:hover {
+    color: rgb(155, 155, 155)
   }
 
   header .active-navbar .link-mobile {

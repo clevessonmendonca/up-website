@@ -4,6 +4,7 @@ import "./styles.css";
 
 import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -37,7 +38,9 @@ export const Header = () => {
   return (
     <header>
       <div className="container">
-        <img src="/logo.svg" alt="Logo by Up Comunição Visual" />
+        <Link to="/">
+          <img src="/logo.svg" alt="Logo by Up Comunição Visual" />
+        </Link>
         <nav>
           <ul className="navbar" onClick={() => handleNavbar()}>
             <NavLink to="/">Home</NavLink>
