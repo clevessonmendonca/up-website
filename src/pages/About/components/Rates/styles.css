@@ -14,7 +14,3 @@
     height: 150px;
     border-radius: 100%;
 }
-
-.rates .card:hover {
-    box-shadow: none;
-  }

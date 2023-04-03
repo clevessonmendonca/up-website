@@ -66,6 +66,7 @@ export const Contact = () => {
             <InstagramLogo /> Conheça nosso Instagram.
           </a>
         </section>
+        <span className="background-effect" />
       </main>
       <footer className="contact container">
         <nav>
