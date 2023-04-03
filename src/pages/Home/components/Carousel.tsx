@@ -15,7 +15,7 @@ export const CarouselComponent = () => {
       showThumbs={false}
     >
       <Link to={`contact/1`}>
-        <img src="public/banners/sticker-carousel.png" alt="" />
+        <img src="/banners/sticker-carousel.png" alt="" />
       </Link>
       <Link to={`contact/4`}>
         <img src="/banners/card-visit-carousel.png" alt="" />

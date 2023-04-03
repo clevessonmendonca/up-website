@@ -3,18 +3,21 @@ header {
   width: 100%;
   height: 6rem;
   display: flex;
-  z-index: 999;
 
-  box-shadow: 0 2px rgba(0, 0, 0, 0.067);;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.067);
 }
 
 header .container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  background: white;
+  z-index: 99;
 }
 
-header .container nav {
+header .container nav, header .container .navbar  {
   display: flex;
   gap: 2rem;
 }
@@ -25,6 +28,10 @@ header .container nav a {
   height: 6rem;
   display: flex;
   color: black;
+}
+
+header .mobile-nav {
+  display: none;
 }
 
 header .container nav a:hover {
@@ -39,8 +46,62 @@ header .container nav a.active {
   header .container img {
     width: 60px;
   }
-  
-  header .containe nav > a {
+
+  header .container nav, header .primary-button {
+    display: none;
+    height: 0;
+  }
+
+  header .container nav > a {
     padding: 1rem 0.5rem;
+  }
+
+  header.active-navbar {
+    position: fixed;
+    z-index: 999;
+  }
+
+  header .overlay {
+    position: fixed;
+    height: 0;
+    width: 100%;
+    background: #262c2beb;
+    transition: height 0.4s ease-in-out;
+    z-index: 97;
+  }
+
+  header .container .navbar {
+    flex-direction: column;
+  }
+
+  header .container .active-navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 0;
+    top: 0%;
+    z-index: 99;
+    transition: height 0.4s ease-in-out;
+  }
+
+  header .active-navbar,
+  header .container .active-navbar {
+    height: 100vh;
+    display: flex;
+  }
+
+  header .container .active-navbar .navbar {
+    background-color: white;
+    padding: 2rem 8rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+  }
+
+  header .mobile-nav {
+    display: block;
+    z-index: 999;
   }
 }
