@@ -12,6 +12,10 @@ header.container img {
   width: 150px;
 }
 
+header.container p, header.container h1 {
+  text-align: center;
+}
+
 main.linktree .cards {
   margin: 1rem auto;
   flex-direction: column;
@@ -29,7 +33,6 @@ main.linktree .card {
   flex-direction: row;
   padding-left: 80px;
   max-width: 600px;
-  height: 70px;
   transition: all 0.2s;
 }
 
