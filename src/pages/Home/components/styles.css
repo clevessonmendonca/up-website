@@ -1,14 +1,16 @@
 .carousel,
+.carousel {
+  margin: 0 auto;
+}
+
+.carousel .slide img {
+   max-width: 1600px;
+}
+
 .carousel a {
   display: inline-block;
   height: 100%;
   width: 100%;
 
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .carousel .slide img {
-    height: 190px;
-  }
 }

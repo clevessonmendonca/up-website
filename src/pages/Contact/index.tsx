@@ -13,6 +13,7 @@ export const Contact = () => {
         <img src="/logotipo.png" alt="Logo by Up Comunição Visual" />
         <h1>Links e Contato</h1>
         <p>Clique no botão em que deseja solicitar um serviço!</p>
+        <span className="background-effect" />
       </header>
       <main className="linktree">
         <Link to="/" className="back-to-website">
@@ -82,6 +83,7 @@ export const Contact = () => {
             <WhatsappLogo />
           </a>
         </nav>
+        <span className="background-effect" />
       </footer>
     </>
   );
