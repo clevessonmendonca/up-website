@@ -86,7 +86,7 @@ header .container nav a.active {
     justify-content: center;
     width: 95%;
     height: 0;
-    top: 0%;
+    top: 5%;
     z-index: 99;
     transition: height 0.4s ease-in-out;
   }

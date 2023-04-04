@@ -9,7 +9,6 @@ import CardCarousel from "../../../../public/banners/card-visit-carousel.png";
 export const CarouselComponent = () => {
   return (
     <Carousel
-      dynamicHeight={false}
       autoFocus
       autoPlay
       interval={5000}
