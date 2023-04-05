@@ -1,12 +1,12 @@
 import "./styles.css";
 
-import ArrowCenterImg from "../../assets/arrow-center.png"
-import ArrowTopImg from "../../assets/arrow-top.png"
-import ArrowBottomImg from "../../assets/arrow-bottom.png"
+import ArrowCenterImg from "../../assets/arrow-center.png";
+import ArrowTopImg from "../../assets/arrow-top.png";
+import ArrowBottomImg from "../../assets/arrow-bottom.png";
 
 import { Rates } from "./components/Rates";
-import { Button } from "../../components/Button";
 import { ArrowDown } from "phosphor-react";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export const About = () => {
   return (
@@ -19,39 +19,50 @@ export const About = () => {
               Somos uma empresa com foco em Comunicação Visual e Serviços
               Gráficos, venha colocar sua ideia no papel
             </p>
-            <a href="#about" className="more"><ArrowDown /> Saiba mais</a>
+            <a href="#about" className="more">
+              <ArrowDown /> Saiba mais
+            </a>
           </div>
-          <img src="/about.png" alt="" />
+          <img src="/about.png" alt="An astronaut waving" />
         </div>
       </section>
 
       <section className="about-visions" id="about">
         <div className="about-visions-container container">
-          <h2>Como nossos Princípios podem te ajudar</h2>
+          <AnimationOnScroll
+            animateOnce={true}
+            initiallyVisible={true}
+            animateIn="animate__fadeInLeftBig"
+            offset={1}
+          >
+            <h2>Como nossos Princípios podem te ajudar</h2>
+          </AnimationOnScroll>
           <div className="visions-layout">
             <ul>
               <li>
                 <span>
                   <img src={ArrowCenterImg} alt="" />
                 </span>
-                <img
-                  className="principies"
-                  src="/mission.png"
-                  alt=""
-                />
-                <div>
-                  <h3>Missão</h3>
-                  <h4>
-                    Atender qualquer cliente que idealize algo, transformando
-                    tal sonho em forma <strong>Gráfica/Visual</strong> em
-                    realidade.
-                  </h4>
-                  <p>
-                    E em conjunto das necessidades, como melhor custo,
-                    benefícios, prazo, qualidade e comprometimento sejam sempre
-                    atendidos.
-                  </p>
-                </div>
+                <AnimationOnScroll
+                  animateOnce={true}
+                  initiallyVisible={true}
+                  animateIn="animate__fadeInLeftBig"
+                >
+                  <img className="principies" src="/mission.png" alt="" />
+                  <div>
+                    <h3>Missão</h3>
+                    <h4>
+                      Atender qualquer cliente que idealize algo, transformando
+                      tal sonho em forma <strong>Gráfica/Visual</strong> em
+                      realidade.
+                    </h4>
+                    <p>
+                      E em conjunto das necessidades, como melhor custo,
+                      benefícios, prazo, qualidade e comprometimento sejam
+                      sempre atendidos.
+                    </p>
+                  </div>
+                </AnimationOnScroll>
               </li>
             </ul>
             <ul>
@@ -59,43 +70,48 @@ export const About = () => {
                 <span>
                   <img src={ArrowTopImg} alt="" />
                 </span>
-                <img
-                  className="principies"
-                  src="/vision.png"
-                  alt=""
-                />
-                <div>
-                  <h3>Visão</h3>
-                  <h4>
-                    Ser uma excelente empresa no seguimento de Comunicação
-                    Visual e Serviços Gráficos
-                  </h4>
-                  <p>
-                    Atendemos nossos clientes de maneira única, dedicando todos
-                    os esforços para desenvolver e finalizar cada serviço.
-                  </p>
-                </div>
+                <AnimationOnScroll
+                  animateOnce={true}
+                  initiallyVisible={true}
+                  animateIn="animate__fadeInLeftBig"
+                >
+                  <img className="principies" src="/vision.png" alt="" />
+                  <div>
+                    <h3>Visão</h3>
+                    <h4>
+                      Ser uma excelente empresa no seguimento de Comunicação
+                      Visual e Serviços Gráficos
+                    </h4>
+                    <p>
+                      Atendemos nossos clientes de maneira única, dedicando
+                      todos os esforços para desenvolver e finalizar cada
+                      serviço.
+                    </p>
+                  </div>
+                </AnimationOnScroll>
               </li>
               <li>
                 <span>
                   <img src={ArrowBottomImg} alt="" />
                 </span>
-                <img
-                  className="principies"
-                  src="/values.png"
-                  alt=""
-                />
-                <div>
-                  <h3>Valores</h3>
-                  <h4>
-                    Nossos valores são baseados em nossos princípios e crenças
-                    em prol do melhor para os nossos clientes
-                  </h4>
-                  <p>
-                    Ter fé, Comprometimento, Ética, Agilidade, Respeito,
-                    Humildade, Empatia, Atitude
-                  </p>
-                </div>
+                <AnimationOnScroll
+                  animateOnce={true}
+                  initiallyVisible={true}
+                  animateIn="animate__fadeInLeftBig"
+                >
+                  <img className="principies" src="/values.png" alt="" />
+                  <div>
+                    <h3>Valores</h3>
+                    <h4>
+                      Nossos valores são baseados em nossos princípios e crenças
+                      em prol do melhor para os nossos clientes
+                    </h4>
+                    <p>
+                      Ter fé, Comprometimento, Ética, Agilidade, Respeito,
+                      Humildade, Empatia, Atitude
+                    </p>
+                  </div>
+                </AnimationOnScroll>
               </li>
             </ul>
           </div>
@@ -103,7 +119,14 @@ export const About = () => {
       </section>
 
       <section className="services-trust">
-        <h2>Empresas que confiam em nossos serviços</h2>
+        <AnimationOnScroll
+          animateOnce={true}
+          initiallyVisible={true}
+          animateIn="animate__fadeInLeftBig"
+          offset={1}
+        >
+          <h2>Empresas que confiam em nossos serviços</h2>
+        </AnimationOnScroll>
         <div className="companies">
           <a
             title="Vivendas"

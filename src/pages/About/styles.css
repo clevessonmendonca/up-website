@@ -202,3 +202,9 @@
     text-align: center;
   }
 }
+
+@keyframes fadeInUpBig {
+  0% {
+    transform: translate3d(0, 100px, 0);
+  }
+}

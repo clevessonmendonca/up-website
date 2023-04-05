@@ -5,6 +5,7 @@ import { Product } from "../../components/Product";
 import { CarouselComponent } from "./components/Carousel";
 import { Rates } from "../About/components/Rates";
 import { ProductsDb } from "../../Services/Products";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export function Home() {
   return (
@@ -21,7 +22,13 @@ export function Home() {
                   <h3 className="card-title">{product.title}</h3>
                   <img src={product.image} alt="" />
                   <p className="card-text">{product.description}</p>
-                  <Button name="Saiba mais" url={`/contact/${product.id}`} />
+                  <AnimationOnScroll
+                    animateOnce={true}
+                    initiallyVisible={true}
+                    animateIn="animate__tada"
+                  >
+                    <Button name="Saiba mais" url={`/contact/${product.id}`} />
+                  </AnimationOnScroll>
                 </div>
               );
             }
