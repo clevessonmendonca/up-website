@@ -17,7 +17,7 @@ export const About = () => {
             <h1 className="line">Sobre nós</h1>
             <p>
               Somos uma empresa com foco em Comunicação Visual e Serviços
-              Gráficos, venha colocar sua ideia no papel
+              Gráficos, venha colocar sua ideia no papel!
             </p>
             <a href="#about" className="more">
               <ArrowDown /> Saiba mais
@@ -80,7 +80,7 @@ export const About = () => {
                     <h3>Visão</h3>
                     <h4>
                       Ser uma excelente empresa no seguimento de Comunicação
-                      Visual e Serviços Gráficos
+                      Visual e Serviços Gráficos.
                     </h4>
                     <p>
                       Atendemos nossos clientes de maneira única, dedicando
@@ -104,11 +104,11 @@ export const About = () => {
                     <h3>Valores</h3>
                     <h4>
                       Nossos valores são baseados em nossos princípios e crenças
-                      em prol do melhor para os nossos clientes
+                      em prol do melhor para os nossos clientes!
                     </h4>
                     <p>
                       Ter fé, Comprometimento, Ética, Agilidade, Respeito,
-                      Humildade, Empatia, Atitude
+                      Humildade, Empatia, Atitude.
                     </p>
                   </div>
                 </AnimationOnScroll>

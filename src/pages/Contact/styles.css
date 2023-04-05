@@ -92,8 +92,8 @@ header {
 
 .background-effect {
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 1px;
+  height: 1px;
   border-radius: 999px;
   z-index: -99;
 

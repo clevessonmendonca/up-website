@@ -18,7 +18,7 @@ export const Product = () => {
         {ProductsDb.map((product) => (
           <AnimationOnScroll
             key={product.id}
-            initiallyVisible={window.screen.width <= 1440 ? false : true}
+            initiallyVisible={window.screen.width <= 1020 ? false : true}
             animateOnce={true}
             animateIn="animate__fadeInLeftBig"
           >

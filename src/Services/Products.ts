@@ -3,7 +3,7 @@ export const ProductsDb = [
     id: '1',
     title: "Adesivos",
     image: "/cards/card-adesivo.png",
-    description: "Adesivo de Parede personalizado",
+    description: "Adesivos em geral personalizados para inovar sua marca em qualquer produto.",
   },
   {
     id: '2',
@@ -16,20 +16,20 @@ export const ProductsDb = [
     id: '3',
     title: "Impressões UV",
     image: "/cards/card-uv.png",
-    description: "Impressões em UV, em Lona, adesivo e Tecido especial",
+    description: "Impressões UV: em Lona, Adesivo e Tecido especial.",
     star: true
   },
   {
     id: '4',
     title: "Cartão de Visita",
     image: "/cards/card-visit.png",
-    description: "Adesivo de Parede personalizado",
+    description: "Cartões de Visita para divulgação da sua empresa.",
   },
   {
     id: '5',
     title: "Quadros",
     image: "/cards/card-quadro.png",
-    description: "Crianção de Quadros com seu Design.",
+    description: "Criação de Quadros com seu Design de preferência.",
   },
   {
     id: '6',
@@ -49,7 +49,7 @@ export const ProductsDb = [
     id: '8',
     title: "Fotos",
     image: "/cards/card-photo.png",
-    description: "Guarde momentos em um quadro de foto.",
+    description: "Guarde momentos em um quadro de fotos.",
   },
   {
     id: '9',
