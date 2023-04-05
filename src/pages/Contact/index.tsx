@@ -3,6 +3,7 @@ import "./styles.css";
 
 import { ArrowLeft, Globe, InstagramLogo, WhatsappLogo } from "phosphor-react";
 import { ProductsDb } from "../../Services/Products";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export const Contact = () => {
   const { id } = useParams();
@@ -23,14 +24,21 @@ export const Contact = () => {
           {ProductsDb.map((product) => {
             if (id && product.id == id) {
               return (
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
-                  className="card selected"
+                <AnimationOnScroll
+                  animateOnce={true}
+                  initiallyVisible={true}
+                  animateIn="animate__tada"
+                  animatePreScroll={false}
                 >
-                  <WhatsappLogo /> Solicitar orçamento de {product.title}.
-                </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
+                    className="card selected"
+                  >
+                    <WhatsappLogo /> Solicitar orçamento de {product.title}.
+                  </a>
+                </AnimationOnScroll>
               );
             }
           })}

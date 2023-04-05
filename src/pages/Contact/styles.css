@@ -17,6 +17,13 @@ header.container h1 {
   text-align: center;
 }
 
+main.linktree .cards .animate__animated {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
 main.linktree .cards {
   margin: 1rem auto;
   flex-direction: column;
@@ -72,11 +79,11 @@ footer.contact nav a {
   border-radius: 9999px;
   padding: 0.5rem;
 
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 footer.contact nav a:hover {
-  filter: brightness(0.8)
+  filter: brightness(0.8);
 }
 
 footer.contact nav a svg {
