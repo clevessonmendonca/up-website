@@ -41,14 +41,14 @@ export const About = () => {
             <ul>
               <li>
                 <span>
-                  <img src={ArrowCenterImg} alt="" />
+                  <img src={ArrowCenterImg} alt="Arrow detail" />
                 </span>
                 <AnimationOnScroll
                   animateOnce={true}
                   initiallyVisible={true}
                   animateIn="animate__fadeInLeftBig"
                 >
-                  <img className="principies" src="/mission.png" alt="" />
+                  <img className="principies" src="/mission.png" alt="Mission Image" />
                   <div>
                     <h3>Missão</h3>
                     <h4>
@@ -68,14 +68,14 @@ export const About = () => {
             <ul>
               <li>
                 <span>
-                  <img src={ArrowTopImg} alt="" />
+                  <img src={ArrowTopImg} alt="Arrow Detail" />
                 </span>
                 <AnimationOnScroll
                   animateOnce={true}
                   initiallyVisible={true}
                   animateIn="animate__fadeInLeftBig"
                 >
-                  <img className="principies" src="/vision.png" alt="" />
+                  <img className="principies" src="/vision.png" alt="Vision Image" />
                   <div>
                     <h3>Visão</h3>
                     <h4>
@@ -92,14 +92,14 @@ export const About = () => {
               </li>
               <li>
                 <span>
-                  <img src={ArrowBottomImg} alt="" />
+                  <img src={ArrowBottomImg} alt="Arrow Detail" />
                 </span>
                 <AnimationOnScroll
                   animateOnce={true}
                   initiallyVisible={true}
                   animateIn="animate__fadeInLeftBig"
                 >
-                  <img className="principies" src="/values.png" alt="" />
+                  <img className="principies" src="/values.png" alt="Values Image" />
                   <div>
                     <h3>Valores</h3>
                     <h4>
@@ -135,7 +135,7 @@ export const About = () => {
           >
             <img
               src="/business/vivendas.png"
-              alt="Empresa Supermercado Vivendas"
+              alt="Company Supermarket Vivendas"
             />
           </a>
           <a
@@ -143,7 +143,7 @@ export const About = () => {
             href="https://www.instagram.com/tavaressupermercado/"
             target="_blank"
           >
-            <img src="/business/tavares.jpg" alt="" />
+            <img src="/business/tavares.jpg" alt="Company Tavares Supermarket" />
           </a>
           <a
             title="Autoestima"
@@ -152,7 +152,7 @@ export const About = () => {
           >
             <img
               src="/business/autoestima.png"
-              alt="Empresa de estetica Autoestima"
+              alt="Company Estetica Autoestima"
             />
           </a>
         </div>

@@ -20,7 +20,7 @@ export function Home() {
               return (
                 <div className="card" key={product.id}>
                   <h3 className="card-title">{product.title}</h3>
-                  <img src={product.image} alt="" />
+                  <img src={product.image} alt={product.title} />
                   <p className="card-text">{product.description}</p>
                   <AnimationOnScroll
                     animateOnce={true}
