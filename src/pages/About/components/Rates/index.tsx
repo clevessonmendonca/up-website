@@ -19,22 +19,26 @@ export const Rates = () => {
           <img src={AvatarImg} alt="avatar anonymous" />
           <h3 className="card-title">Isadora Santos</h3>
           <p className="card-text">
-            Adorei! Eles superaram minhas expectativas.
+            O resultado final ficou incrível, superando minhas expectativas. A
+            qualidade do material é excelente e o preço foi justo.
           </p>
         </div>
         <div className="card">
           <img src={AvatarImg} alt="avatar anonymous" />
           <h3 className="card-title">Mateus Oliveira</h3>
           <p className="card-text">
-            Não faço serviços em outro lugar desde que conheci a UP!
+            Recomendo a Up para quem precisa de serviços de comunicação visual
+            de qualidade, com uma equipe competente e atenciosa. Com certeza vou
+            voltar a fazer negócio com eles no futuro!
           </p>
         </div>
         <div className="card">
           <img src={AvatarImg} alt="avatar anonymous" />
           <h3 className="card-title">Igor Ferreira</h3>
           <p className="card-text">
-            Qualquer coisa que eu precise... vou correndo para eles. Uso e
-            recomendo!
+            Eu tive uma ótima experiência com a Up! Eles fizeram um excelente
+            trabalho na criação do meu logotipo, cartão de visitas e banners
+            para a minha empresa.
           </p>
         </div>
       </div>
