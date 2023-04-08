@@ -17,17 +17,17 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/about",
+        path: "/sobre",
         element: <About />,
       },
       {
-        path: "/services",
+        path: "/servicos",
         element: <Products />,
       },
     ],
   },
   {
-    path: "/contact/:id?",
+    path: "/contato/:id?",
     element: <Contact />,
   },
 ]);
