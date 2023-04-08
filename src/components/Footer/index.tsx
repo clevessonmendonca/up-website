@@ -30,9 +30,9 @@ export const Footer = () => {
           </div>
           <nav>
             <Link to="/">Home</Link>
-            <Link to="/about">Quem somos</Link>
-            <Link to="/services">Serviços</Link>
-            <Link to="/contact">Contato</Link>
+            <Link to="/sobre">Quem somos</Link>
+            <Link to="/servicos">Serviços</Link>
+            <Link to="/contato">Contato</Link>
           </nav>
         </div>
         <div className="hour">
@@ -46,7 +46,7 @@ export const Footer = () => {
       <div className="clevesson-men">
         <p>
           Developed by{" "}
-          <a target="_blank" href="https://clevessoncontato.com">
+          <a target="_blank" href="https://clevessoncontacto.com">
             Aurora
           </a>
         </p>

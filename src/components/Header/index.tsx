@@ -44,10 +44,10 @@ export const Header = () => {
         <nav>
           <ul className="navbar" onClick={() => handleNavbar()}>
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/about">Sobre</NavLink>
-            <NavLink to="/services">Serviços</NavLink>
+            <NavLink to="/sobre">Sobre</NavLink>
+            <NavLink to="/servicos">Serviços</NavLink>
             {isActive ? (
-              <NavLink className="link-mobile" to="/contact">
+              <NavLink className="link-mobile" to="/contato">
                 Contato
               </NavLink>
             ) : (
@@ -55,7 +55,7 @@ export const Header = () => {
             )}
           </ul>
         </nav>
-        <Button name="Contato" url="/contact" />
+        <Button name="Contato" url="/contato" />
         <div className="mobile-nav" onClick={() => handleNavbar()}>
           {isActive ? <X /> : <Equals />}
         </div>

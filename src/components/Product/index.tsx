@@ -26,7 +26,7 @@ export const Product = () => {
               <h3 className="card-title">{product.title}</h3>
               <img src={product.image} alt={product.title} />
               <p className="card-text">{product.description}</p>
-              <Button name="Saiba mais" url={`/contact/${product.id}`} />
+              <Button name="Saiba mais" url={`/contato/${product.id}`} />
             </div>
           </AnimationOnScroll>
         ))}

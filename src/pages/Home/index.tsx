@@ -27,7 +27,7 @@ export function Home() {
                     initiallyVisible={true}
                     animateIn="animate__tada"
                   >
-                    <Button name="Saiba mais" url={`/contact/${product.id}`} />
+                    <Button name="Saiba mais" url={`/contato/${product.id}`} />
                   </AnimationOnScroll>
                 </div>
               );
