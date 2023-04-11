@@ -48,7 +48,11 @@ export const About = () => {
                   initiallyVisible={true}
                   animateIn="animate__fadeInLeftBig"
                 >
-                  <img className="principies" src="/mission.png" alt="Mission Image" />
+                  <img
+                    className="principies"
+                    src="/mission.png"
+                    alt="Mission Image"
+                  />
                   <div>
                     <h3>Missão</h3>
                     <h4>
@@ -75,7 +79,11 @@ export const About = () => {
                   initiallyVisible={true}
                   animateIn="animate__fadeInLeftBig"
                 >
-                  <img className="principies" src="/vision.png" alt="Vision Image" />
+                  <img
+                    className="principies"
+                    src="/vision.png"
+                    alt="Vision Image"
+                  />
                   <div>
                     <h3>Visão</h3>
                     <h4>
@@ -99,7 +107,11 @@ export const About = () => {
                   initiallyVisible={true}
                   animateIn="animate__fadeInLeftBig"
                 >
-                  <img className="principies" src="/values.png" alt="Values Image" />
+                  <img
+                    className="principies"
+                    src="/values.png"
+                    alt="Values Image"
+                  />
                   <div>
                     <h3>Valores</h3>
                     <h4>
@@ -143,8 +155,18 @@ export const About = () => {
             href="https://www.instagram.com/tavaressupermercado/"
             target="_blank"
           >
-            <img src="/business/tavares.jpg" alt="Company Tavares Supermarket" />
+            <img
+              src="/business/tavares.jpg"
+              alt="Company Tavares Supermarket"
+            />
           </a>
+          <a title="Rei Massas Plásticas" href="" target="_blank">
+            <img
+              src="/business/rei-massas.png"
+              alt="Company Rei Massas Plásticas"
+            />
+          </a>
+
           <a
             title="Autoestima"
             href="https://www.instagram.com/dmourac_autoestima/"
