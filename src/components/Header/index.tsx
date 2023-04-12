@@ -43,21 +43,21 @@ export const Header = () => {
         </Link>
         <nav>
           <ul className="navbar" onClick={() => handleNavbar()}>
-            <Link to="/" aria-label="Go to Home Page!">
+            <NavLink to="/" aria-label="Go to Home Page!">
               Home
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/sobre"
               aria-label="Find out More about Up Comunicação Visual."
             >
               Sobre
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/servicos"
               aria-label="Click here to learn more about our services and products."
             >
               Serviços
-            </Link>
+            </NavLink>
             {isActive ? (
               <NavLink
                 className="link-mobile"
