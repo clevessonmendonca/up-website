@@ -2,9 +2,9 @@ import { Carousel } from "react-responsive-carousel";
 import "./styles.css";
 import { Link } from "react-router-dom";
 
-import StickerCarousel from "../../../../public/banners/sticker-carousel.webp";
-import UVCarousel from "../../../../public/banners/impression-UV-carousel.webp";
-import CardCarousel from "../../../../public/banners/card-visit-carousel.webp";
+import StickerCarousel from "../../../../public/banners/sticker-carousel.jpg";
+import UVCarousel from "../../../../public/banners/impression-UV-carousel.jpg";
+import CardCarousel from "../../../../public/banners/card-visit-carousel.jpg";
 
 export const CarouselComponent = () => {
   return (
