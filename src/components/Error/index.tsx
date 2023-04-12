@@ -5,7 +5,7 @@ export const Error = () => {
   return (
     <div className="error-page container">
       <span className="background-effect" />
-      <img src="/logotipo.png" alt="Logo by Up Comunicação Visual" />
+      <img src="/logotipo.webp" alt="Logo by Up Comunicação Visual" />
       <h1>Oops!</h1>
       <span className="background-effect" />
       <h2>Parece que você foi muito longe!</h2>

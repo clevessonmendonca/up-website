@@ -1,8 +1,8 @@
 import "./styles.css";
 
-import ArrowCenterImg from "../../assets/arrow-center.png";
-import ArrowTopImg from "../../assets/arrow-top.png";
-import ArrowBottomImg from "../../assets/arrow-bottom.png";
+import ArrowCenterImg from "../../assets/arrow-center.webp";
+import ArrowTopImg from "../../assets/arrow-top.webp";
+import ArrowBottomImg from "../../assets/arrow-bottom.webp";
 
 import { Rates } from "./components/Rates";
 import { ArrowDown } from "phosphor-react";
@@ -23,7 +23,7 @@ export const About = () => {
               <ArrowDown /> Saiba mais
             </a>
           </div>
-          <img src="/about.png" alt="An astronaut waving" />
+          <img src="/about.webp" alt="An astronaut waving" />
         </div>
       </section>
 
@@ -50,7 +50,7 @@ export const About = () => {
                 >
                   <img
                     className="principies"
-                    src="/mission.png"
+                    src="/mission.webp"
                     alt="Mission Image"
                   />
                   <div>
@@ -81,7 +81,7 @@ export const About = () => {
                 >
                   <img
                     className="principies"
-                    src="/vision.png"
+                    src="/vision.webp"
                     alt="Vision Image"
                   />
                   <div>
@@ -109,7 +109,7 @@ export const About = () => {
                 >
                   <img
                     className="principies"
-                    src="/values.png"
+                    src="/values.webp"
                     alt="Values Image"
                   />
                   <div>
@@ -147,7 +147,7 @@ export const About = () => {
             aria-label="Partner Company"
           >
             <img
-              src="/business/vivendas.png"
+              src="/business/vivendas.webp"
               alt="Company Supermarket Vivendas"
             />
           </a>
@@ -164,7 +164,7 @@ export const About = () => {
           </a>
           <a title="Rei Massas Plásticas" href="" target="_blank">
             <img
-              src="/business/rei-massas.png"
+              src="/business/rei-massas.webp"
               alt="Company Rei Massas Plásticas"
             />
           </a>
@@ -176,7 +176,7 @@ export const About = () => {
             aria-label="Partner Company"
           >
             <img
-              src="/business/autoestima.png"
+              src="/business/autoestima.webp"
               alt="Company Estetica Autoestima"
             />
           </a>

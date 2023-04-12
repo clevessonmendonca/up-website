@@ -50,7 +50,7 @@ export const Header = () => {
               to="/sobre"
               aria-label="Find out More about Up Comunicação Visual."
             >
-              Quem somos
+              Sobre
             </Link>
             <Link
               to="/servicos"
@@ -71,7 +71,11 @@ export const Header = () => {
             )}
           </ul>
         </nav>
-        <Button name="Contato" url="/contato" arial_label="Click here to open the navigation bar" />
+        <Button
+          name="Contato"
+          url="/contato"
+          arial_label="Click here to open the navigation bar"
+        />
         <div className="mobile-nav" onClick={() => handleNavbar()}>
           {isActive ? <X /> : <Equals />}
         </div>

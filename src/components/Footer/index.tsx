@@ -9,7 +9,7 @@ export const Footer = () => {
       <div className="container">
         <div className="content">
           <div>
-            <img src="/logotipo.png" alt="Logo by Up Comunição Visual" />
+            <img src="/logotipo.webp" alt="Logo by Up Comunição Visual" />
             <div className="social-medias">
               <a href="https://www.instagram.com/up.cvbsb/" target="_blank">
                 <InstagramLogo />

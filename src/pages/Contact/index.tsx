@@ -11,7 +11,7 @@ export const Contact = () => {
   return (
     <>
       <header className="container">
-        <img src="/logotipo.png" alt="Logo by Up Comunição Visual" />
+        <img src="/logotipo.webp" alt="Logo by Up Comunição Visual" />
         <h1>Links e Contato</h1>
         <p>Clique no botão em que deseja solicitar um serviço!</p>
         <span className="background-effect" />

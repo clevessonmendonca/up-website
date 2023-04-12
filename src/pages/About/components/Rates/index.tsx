@@ -1,6 +1,6 @@
 import "./styles.css";
 
-import AvatarImg from "../../../../assets/avatar.png";
+import AvatarImg from "../../../../assets/avatar.webp";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export const Rates = () => {
