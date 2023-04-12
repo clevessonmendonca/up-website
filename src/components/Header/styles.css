@@ -41,6 +41,7 @@ header .container nav a:hover {
 }
 
 header .container nav a.active {
+  color: var(--violet-800);
   border-bottom: 3px solid var(--violet-800);
 }
 
