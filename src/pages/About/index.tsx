@@ -158,7 +158,7 @@ export const About = () => {
             aria-label="Partner Company"
           >
             <img
-              src="/business/tavares.jpg"
+              src="/business/tavares.webp"
               alt="Company Tavares Supermarket"
             />
           </a>
