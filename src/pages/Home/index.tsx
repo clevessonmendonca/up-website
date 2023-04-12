@@ -27,7 +27,11 @@ export function Home() {
                     initiallyVisible={true}
                     animateIn="animate__tada"
                   >
-                    <Button name="Saiba mais" url={`/contato/${product.id}`} />
+                    <Button
+                      name="Saiba mais"
+                      url={`/contato/${product.id}`}
+                      arial_label={`Learn more about ${product.title} product.`}
+                    />
                   </AnimationOnScroll>
                 </div>
               );

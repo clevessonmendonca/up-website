@@ -35,6 +35,7 @@ export const Contact = () => {
                     rel="noopener noreferrer"
                     href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
                     className="card selected"
+                    aria-label={`Click here and make your budget for the ${product.title} product!`}
                   >
                     <WhatsappLogo /> Solicitar orçamento de {product.title}.
                   </a>
@@ -47,6 +48,7 @@ export const Contact = () => {
             rel="noopener noreferrer"
             href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+fazer+uma+impress%C3%A3o+UV%21"
             className="card"
+            aria-label="Custumize a Service with UV Printing"
           >
             <WhatsappLogo /> Quero personalizar um produto com Impressão UV.
           </a>
@@ -55,6 +57,7 @@ export const Contact = () => {
             rel="noopener noreferrer"
             href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
             className="card"
+            aria-label="Request a quote for a Service!"
           >
             <WhatsappLogo /> Solicitar orçamento de um serviço.
           </a>
@@ -63,6 +66,7 @@ export const Contact = () => {
             rel="noopener noreferrer"
             href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
             className="card"
+            aria-label="Call with us."
           >
             <WhatsappLogo /> Falar com Atedente.
           </a>
@@ -70,6 +74,7 @@ export const Contact = () => {
             href="https://www.instagram.com/up.cvbsb/"
             target="_blank"
             className="card"
+            aria-label="Meet our Instagram"
           >
             <InstagramLogo /> Conheça nosso Instagram.
           </a>
@@ -78,16 +83,21 @@ export const Contact = () => {
       </main>
       <footer className="contact container">
         <nav>
-          <Link to="/">
+          <Link to="/" arial-label="Meet our Website">
             <Globe />
           </Link>
-          <a href="https://www.instagram.com/up.cvbsb/" target="_blank">
+          <a
+            href="https://www.instagram.com/up.cvbsb/"
+            target="_blank"
+            arial-label="Meet our Instagram"
+          >
             <InstagramLogo />
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://wa.me/5561999732123?text=Ol%C3%A1%2C+gostaria+de+solicitar+um+or%C3%A7amento%21"
+            arial-label="Request quote by our WhatsApp"
           >
             <WhatsappLogo />
           </a>

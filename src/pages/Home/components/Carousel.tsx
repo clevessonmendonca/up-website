@@ -17,19 +17,19 @@ export const CarouselComponent = () => {
       showStatus={false}
       showThumbs={false}
     >
-      <Link to={`contato/1`}>
+      <Link to={`contato/1`} arial-label="Request a quote for this Stickers Service!">
         <img
           src={StickerCarousel}
           alt="Demonstrative banner of a service about Stickers. Clique here and learn more!"
         />
       </Link>
-      <Link to={`contato/4`}>
+      <Link to={`contato/4`} arial-label="Request a quote for this Visit Cards Service!">
         <img
           src={CardCarousel}
           alt="Demonstrative banner of a service about Visit Cards. Clique here and learn more!"
         />
       </Link>
-      <Link to={`contato/3`}>
+      <Link to={`contato/3`} arial-label="Request a quote for this UV Printing Service!">
         <img
           src={UVCarousel}
           alt="Demonstrative banner of a service about UV Printing. Clique here and learn more!"

@@ -19,7 +19,7 @@ export const About = () => {
               Somos uma empresa com foco em Comunicação Visual e Serviços
               Gráficos, venha colocar sua ideia no papel!
             </p>
-            <a href="#about" className="more">
+            <a href="#about" className="more" aria-label="Learn more about us!">
               <ArrowDown /> Saiba mais
             </a>
           </div>
@@ -144,6 +144,7 @@ export const About = () => {
             title="Vivendas"
             href="https://www.grupovivendas.com.br/"
             target="_blank"
+            aria-label="Partner Company"
           >
             <img
               src="/business/vivendas.png"
@@ -154,6 +155,7 @@ export const About = () => {
             title="Tavares"
             href="https://www.instagram.com/tavaressupermercado/"
             target="_blank"
+            aria-label="Partner Company"
           >
             <img
               src="/business/tavares.jpg"
@@ -171,6 +173,7 @@ export const About = () => {
             title="Autoestima"
             href="https://www.instagram.com/dmourac_autoestima/"
             target="_blank"
+            aria-label="Partner Company"
           >
             <img
               src="/business/autoestima.png"

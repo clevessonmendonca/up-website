@@ -29,10 +29,10 @@ export const Footer = () => {
             <p>Todos os direitos reservados.</p>
           </div>
           <nav>
-            <Link to="/">Home</Link>
-            <Link to="/sobre">Quem somos</Link>
-            <Link to="/servicos">Serviços</Link>
-            <Link to="/contato">Contato</Link>
+            <Link to="/" aria-label="Go to Home Page!">Home</Link>
+            <Link to="/sobre"  aria-label="Find out More about Up Comunicação Visual.">Quem somos</Link>
+            <Link to="/servicos" aria-label="Click here to learn more about our services and products.">Serviços</Link>
+            <Link to="/contato" aria-label="Click here and get in touch with us.">Contato</Link>
           </nav>
         </div>
         <div className="hour">
@@ -46,7 +46,7 @@ export const Footer = () => {
       <div className="clevesson-men">
         <p>
           Developed by{" "}
-          <a target="_blank" href="https://clevessoncontacto.com">
+          <a target="_blank" href="https://clevessoncontacto.com" aria-label="Go to developer Site">
             Aurora
           </a>
         </p>

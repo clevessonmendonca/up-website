@@ -5,6 +5,7 @@
 
 .carousel .slide img {
    max-width: 1600px;
+   max-height: 450px;
 }
 
 .carousel a {

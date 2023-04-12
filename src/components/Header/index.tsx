@@ -43,11 +43,27 @@ export const Header = () => {
         </Link>
         <nav>
           <ul className="navbar" onClick={() => handleNavbar()}>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/sobre">Sobre</NavLink>
-            <NavLink to="/servicos">Serviços</NavLink>
+            <Link to="/" aria-label="Go to Home Page!">
+              Home
+            </Link>
+            <Link
+              to="/sobre"
+              aria-label="Find out More about Up Comunicação Visual."
+            >
+              Quem somos
+            </Link>
+            <Link
+              to="/servicos"
+              aria-label="Click here to learn more about our services and products."
+            >
+              Serviços
+            </Link>
             {isActive ? (
-              <NavLink className="link-mobile" to="/contato">
+              <NavLink
+                className="link-mobile"
+                to="/contato"
+                aria-label="Click here and get in touch with us."
+              >
                 Contato
               </NavLink>
             ) : (
@@ -55,7 +71,7 @@ export const Header = () => {
             )}
           </ul>
         </nav>
-        <Button name="Contato" url="/contato" />
+        <Button name="Contato" url="/contato" arial_label="Click here to open the navigation bar" />
         <div className="mobile-nav" onClick={() => handleNavbar()}>
           {isActive ? <X /> : <Equals />}
         </div>

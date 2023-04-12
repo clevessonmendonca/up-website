@@ -17,6 +17,11 @@ header .container {
   z-index: 99;
 }
 
+header .container img {
+  width: 70px;
+  height: 70px;
+}
+
 header .container nav,
 header .container .navbar {
   display: flex;
@@ -48,6 +53,7 @@ header .container nav a.active {
 @media (max-width: 535px) {
   header .container img {
     width: 60px;
+    height: 60px;
   }
 
   header .container nav,
