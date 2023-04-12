@@ -56,4 +56,11 @@
   .card {
     max-width: 300px;
   }
+
+  .card img {
+    max-height: 250px;
+    max-width: 250px;
+    height: 100%;
+    width: 100%;
+  }
 }

@@ -28,6 +28,8 @@ footer p {
 
 footer img {
   max-width: 130px;
+  width: 130px;
+  height: 145px;
 }
 
 footer .hour {
@@ -73,6 +75,11 @@ footer .social-medias svg {
 
 
 @media (max-width: 767px) {
+  footer img {
+    width: 100px;
+    height: 115px;
+  }
+
   footer .content nav {
     flex-direction: column;
     justify-content: center;

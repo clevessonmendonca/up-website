@@ -4,8 +4,9 @@
 }
 
 .carousel .slide img {
-   max-width: 1600px;
-   max-height: 450px;
+  max-width: 1600px;
+  max-height: 450px;
+  height: 100%;
 }
 
 .carousel a {

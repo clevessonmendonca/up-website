@@ -23,3 +23,10 @@
   border: 1px solid white;
   filter: brightness(0.9);
 }
+
+@media (max-width: 767px) {
+  .whatsapp-button img {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+}
