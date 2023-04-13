@@ -138,14 +138,26 @@
 }
 
 .services-trust .companies {
+  background-color: #f2f2f2;
+  max-width: 1080px;
+  width: 95%;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  overflow: hidden;
+}
+
+.services-trust .companies ul:last-child {
+  align-self: flex-end;
+}
+
+.services-trust .companies ul {
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 4rem;
   padding: 0 1rem;
-
-  max-width: 900px;
+  
+  animation: business 50s  linear backwards infinite;
 }
 
 .services-trust .companies img {
@@ -206,5 +218,20 @@
 @keyframes fadeInUpBig {
   0% {
     transform: translate3d(0, 100px, 0);
+  }
+}
+
+@keyframes business {
+  0% {
+    -webkit-transform: translateX(-3300px);
+            transform: translateX(-3300px);
+  }
+  50% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-3300px);
+    transform: translateX(-3300px);
   }
 }
