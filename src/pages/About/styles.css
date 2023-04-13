@@ -139,7 +139,8 @@
 
 .services-trust .companies {
   background-color: #f2f2f2;
-  max-width: 1080px;
+  max-width: 1368px;
+  padding: 1rem;
   width: 95%;
   display: flex;
   align-items: center;
@@ -177,6 +178,10 @@
   .about-visions .visions-layout ul span {
     display: none;
   }
+
+  .services-trust .companies img { 
+    width: 200px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -213,6 +218,10 @@
     align-items: center;
     text-align: center;
   }
+
+  .services-trust .companies img { 
+    width: 160px;
+  }
 }
 
 @keyframes fadeInUpBig {
@@ -223,15 +232,15 @@
 
 @keyframes business {
   0% {
-    -webkit-transform: translateX(-3300px);
-            transform: translateX(-3300px);
+    -webkit-transform: translateX(-2900px);
+            transform: translateX(-2900px);
   }
   50% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(-3300px);
-    transform: translateX(-3300px);
+    -webkit-transform: translateX(-2900px);
+    transform: translateX(-2900px);
   }
 }

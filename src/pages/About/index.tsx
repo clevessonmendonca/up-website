@@ -213,6 +213,19 @@ export const About = () => {
             </li>
             <li>
               <a
+                title="Santa Maria Shopping"
+                href="#"
+                target="_blank"
+                aria-label="Partner Company"
+              >
+                <img
+                  src="/business/santa-maria-shop.webp"
+                  alt="Company Santa Maria Shopping"
+                />
+              </a>
+            </li>
+            <li>
+              <a
                 title="Mineirão"
                 href="#"
                 target="_blank"
@@ -287,19 +300,6 @@ export const About = () => {
                 <img
                   src="/business/euro-araujo-soares.webp"
                   alt="Company Euro, Araujo, Soares & Lima"
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                title="Santa Maria Shopping"
-                href="#"
-                target="_blank"
-                aria-label="Partner Company"
-              >
-                <img
-                  src="/business/santa-maria-shop.webp"
-                  alt="Company Santa Maria Shopping"
                 />
               </a>
             </li>
